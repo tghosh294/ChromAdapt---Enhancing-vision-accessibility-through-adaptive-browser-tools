@@ -5,6 +5,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding: 0;
 }
 
 .header .container {
@@ -21,6 +22,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .logo a {
@@ -41,6 +44,7 @@
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
+  padding: 0.5rem 0;
 }
 
 .nav a:hover {

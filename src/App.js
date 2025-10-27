@@ -13,7 +13,7 @@ import Community from './pages/Community';
 import Developer from './pages/Developer';
 import Help from './pages/Help';
 import Feedback from './pages/Feedback';
-import './styles/App.css';
+import './styles/App.css'; // Make sure this line exists
 
 function App() {
   const [user, setUser] = useState(null);
