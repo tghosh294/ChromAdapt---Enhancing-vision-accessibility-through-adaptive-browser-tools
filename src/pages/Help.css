@@ -1,0 +1,49 @@
+/* src/pages/Help.css */
+.help {
+  padding: 60px 0;
+}
+
+.help-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.faq-item {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

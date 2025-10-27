@@ -1,0 +1,67 @@
+/* src/pages/Types.css */
+.types {
+  padding: 60px 0;
+}
+
+.types-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.types-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.type-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.color-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.comparison {
+  text-align: center;
+}
+
+.color-strip {
+  display: flex;
+  height: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.color {
+  flex: 1;
+}
+
+.color.red { background: #ff6b6b; }
+.color.green { background: #51cf66; }
+.color.blue { background: #339af0; }
+.color.yellow { background: #ffd43b; }
+
+/* Simulated colors for different types */
+.color-strip.protanopia .color.red { background: #8b4513; }
+.color-strip.protanopia .color.green { background: #d4b483; }
+
+.accessibility-tips ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.accessibility-tips li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.accessibility-tips li:last-child {
+  border-bottom: none;
+}

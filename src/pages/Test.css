@@ -1,0 +1,16 @@
+/* src/pages/Test.css */
+.test-page {
+  padding: 60px 0;
+  min-height: 80vh;
+}
+
+.test-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.test-loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+}
