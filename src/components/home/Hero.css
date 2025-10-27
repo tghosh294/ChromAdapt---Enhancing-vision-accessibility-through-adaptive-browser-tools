@@ -1,6 +1,6 @@
 /* src/components/home/Hero.css */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   padding: 100px 0;
   min-height: 80vh;
@@ -37,7 +37,7 @@
 
 .btn-primary {
   background: white;
-  color: #667eea;
+  color: #1e3c72;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -51,7 +51,7 @@
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
 }
 
 .btn-secondary {
@@ -70,7 +70,7 @@
 
 .btn-secondary:hover {
   background: white;
-  color: #667eea;
+  color: #1e3c72;
 }
 
 .color-comparison {
@@ -81,6 +81,7 @@
   padding: 2rem;
   border-radius: 12px;
   backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .comparison-item {
@@ -98,6 +99,7 @@
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .color-box {
@@ -107,12 +109,23 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-.color-box.red { background: #ff6b6b; }
-.color-box.green { background: #51cf66; }
-.color-box.blue { background: #339af0; }
-.color-box.red-corrected { background: #ff8787; }
-.color-box.green-corrected { background: #69db7c; }
-.color-box.blue-corrected { background: #4dabf7; }
+/* Without Correction - Muted colors (simulating color blindness) */
+.red-muted { background: #cc6666; }      /* Washed out red */
+.green-muted { background: #66cc66; }    /* Washed out green */
+.blue-muted { background: #6666cc; }     /* Washed out blue */
+.yellow-muted { background: #cccc66; }   /* Washed out yellow */
+
+/* With Our Extension - Vibrant corrected colors */
+.red-vibrant { background: #ff4444; }    /* Vibrant red */
+.green-vibrant { background: #44ff44; }  /* Vibrant green */
+.blue-vibrant { background: #4444ff; }   /* Vibrant blue */
+.yellow-vibrant { background: #ffff44; } /* Vibrant yellow */
+
+.comparison-desc {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
 
 @media (max-width: 768px) {
   .hero .container {

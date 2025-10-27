@@ -1,7 +1,7 @@
 /* src/components/common/Header.css */
 .header {
   background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(30, 60, 114, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -15,8 +15,12 @@
 }
 
 .logo h2 {
-  color: #4a90e2;
+  color: #1e3c72;
   margin: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .logo a {
@@ -40,11 +44,11 @@
 }
 
 .nav a:hover {
-  color: #4a90e2;
+  color: #1e3c72;
 }
 
 .nav button {
-  background: #4a90e2;
+  background: #1e3c72;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -55,7 +59,7 @@
 }
 
 .nav button:hover {
-  background: #357abd;
+  background: #2a5298;
 }
 
 .menu-toggle {

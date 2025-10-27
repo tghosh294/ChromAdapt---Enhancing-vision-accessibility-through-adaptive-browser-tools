@@ -23,18 +23,22 @@ const Hero = () => {
             <div className="comparison-item">
               <h4>Without Correction</h4>
               <div className="color-grid uncorrected">
-                <div className="color-box red"></div>
-                <div className="color-box green"></div>
-                <div className="color-box blue"></div>
+                <div className="color-box red-muted"></div>
+                <div className="color-box green-muted"></div>
+                <div className="color-box blue-muted"></div>
+                <div className="color-box yellow-muted"></div>
               </div>
+              <p className="comparison-desc">Colors appear washed out and hard to distinguish</p>
             </div>
             <div className="comparison-item">
               <h4>With Our Extension</h4>
               <div className="color-grid corrected">
-                <div className="color-box red-corrected"></div>
-                <div className="color-box green-corrected"></div>
-                <div className="color-box blue-corrected"></div>
+                <div className="color-box red-vibrant"></div>
+                <div className="color-box green-vibrant"></div>
+                <div className="color-box blue-vibrant"></div>
+                <div className="color-box yellow-vibrant"></div>
               </div>
+              <p className="comparison-desc">Colors are enhanced for better distinction</p>
             </div>
           </div>
         </div>
